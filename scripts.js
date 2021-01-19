@@ -17,7 +17,7 @@ function btnClick(){
     correct += 1;
   }
   else {
-    document.getElementById('mod-content').innerHTML = "<p>Ваш ответ:<b> " + text1 + "</b> неверный!</p>";
+    document.getElementById('mod-content').innerHTML = "<h2>Неправильно! </h2><p>Ваш ответ:<b> " + text1 + "</b> неверный!</p>";
     incorrect += 1;
   }
   document.form.answer.value = '';
