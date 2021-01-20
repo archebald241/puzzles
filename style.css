@@ -32,6 +32,9 @@ label{
   background: #C9F76F;
   font-size: 1.5rem;
 }
+label:hover{
+  background: #00CC00;
+}
 .input-radio{
   display: none;
 }
